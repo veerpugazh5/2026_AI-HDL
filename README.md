@@ -180,18 +180,14 @@ We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be not
 - **Verification**: Formal verification tools
 
 ### **Development Environment**
-We provide a comprehensive Docker container with all tools pre-installed:
+We provide comprehensive setup guides for local tool installation:
 
-```bash
-# Quick Start - Pull & Run
-docker pull aihdl/competition-env:2025
-docker run --rm -it aihdl/competition-env:2025
+- **Simulation**: Icarus Verilog, GTKWave
+- **Synthesis**: Yosys (open-source)
+- **AI Integration**: Python with OpenAI/Anthropic APIs
+- **Platform Support**: Windows, macOS, Linux
 
-# Mount your local work directory
-docker run --rm -it \
-  -v "$(pwd)/my-designs":/home/student/designs \
-  aihdl/competition-env:2025
-```
+See our [Getting Started Guide](./docs/getting-started/README.md) for detailed installation instructions.
 
 ---
 
@@ -241,7 +237,6 @@ AIHDL-2025-2026/
 │   ├── challenge-1/           # First challenge materials
 │   ├── challenge-2/           # Second challenge materials
 │   └── challenge-3/           # Third challenge materials
-├── docker/                    # Docker environment setup
 ├── docs/                      # Documentation and guides
 │   ├── getting-started/       # Beginner tutorials
 │   ├── ai-guides/            # AI tool usage guides

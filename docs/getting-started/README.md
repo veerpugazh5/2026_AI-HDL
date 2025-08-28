@@ -28,30 +28,9 @@ Welcome to the AI Hardware Design League! This guide will help you get up and ru
 
 ## 🛠️ Environment Setup
 
-### Option 1: Docker (Recommended)
+### Local Installation (Recommended)
 
-The easiest way to get started is using our pre-configured Docker container:
-
-```bash
-# Pull and run the container
-docker pull aihdl/competition-env:2025
-docker run --rm -it aihdl/competition-env:2025
-
-# Run with your workspace mounted
-docker run --rm -it \
-  -v "$(pwd)/my-aihdl-workspace":/home/student/workspace \
-  aihdl/competition-env:2025
-```
-
-**Benefits:**
-- ✅ Everything pre-installed and configured
-- ✅ Consistent environment across all platforms
-- ✅ No conflicts with your existing setup
-- ✅ Easy to update and maintain
-
-### Option 2: Local Installation
-
-If you prefer to install tools locally, follow our [Local Setup Guide](./local-setup.md).
+Install the required tools directly on your system for the best performance and flexibility:
 
 **Required tools:**
 - Icarus Verilog (simulation)
@@ -59,6 +38,8 @@ If you prefer to install tools locally, follow our [Local Setup Guide](./local-s
 - Yosys (synthesis)
 - Python 3.8+ (AI integration)
 - Git (version control)
+
+**📖 Detailed installation instructions**: [Local Setup Guide](./local-setup.md)
 
 ## 🎓 Learning Path
 
@@ -106,24 +87,25 @@ Complete our hands-on tutorial to verify your setup:
 
 ### Step 1: Environment Test
 ```bash
-# In your AI-HDL environment
-cd ~/examples/basic_modules
+# Create a simple test
+mkdir aihdl-test && cd aihdl-test
 
+# Create basic Verilog files (see local setup guide for examples)
 # Compile and simulate
-iverilog -o and_gate and_gate.v and_gate_tb.v
-./and_gate
+iverilog -o test_design design.v testbench.v
+./test_design
 
 # View waveforms
-gtkwave and_gate.vcd
+gtkwave test_design.vcd
 ```
 
 ### Step 2: AI Integration Test
 ```bash
-# Test AI logging utility
-python3 ~/tools/python/aihdl/logger.py demo
+# Test Python AI libraries
+python3 -c "import openai; print('AI libraries ready!')"
 
-# Check the generated log
-cat ai-logs/conversation_*.md
+# Create your first AI interaction log
+python3 ai_helper.py  # Using the script from local setup guide
 ```
 
 ### Step 3: Simple Design Challenge
