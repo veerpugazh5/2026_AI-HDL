@@ -18,6 +18,10 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 > **No prior hardware design experience required!** 🎯
 
+**🎓 Inspired by**: The pioneering work of the [University of Arizona AI-HDL program](https://csm.arizona.edu/AIHDL), which has successfully demonstrated the power of AI-assisted hardware design education with winners like "AI or Die" from University of Arizona and international teams from Vietnam, Germany, and India.
+
+📖 **[Learn more about the connection to the official AI-HDL program →](./docs/about-aihdl.md)**
+
 ### 🎬 Watch Our Introduction Video
 *[Link to introduction video will be added]*
 
@@ -257,9 +261,10 @@ AIHDL-2025-2026/
 - 🐛 **Issues**: Report problems via GitHub Issues
 
 ### **Stay Connected**
-- 🌐 **Website**: [csm.arizona.edu/AIHDL](https://csm.arizona.edu/AIHDL)
-- 🐦 **Twitter**: [@AIHDL_Official](https://twitter.com/AIHDL_Official)
-- 💼 **LinkedIn**: [AI Hardware Design League](https://linkedin.com/company/aihdl)
+- 🌐 **Official AI-HDL Website**: [csm.arizona.edu/AIHDL](https://csm.arizona.edu/AIHDL)
+- 🎓 **University of Arizona**: [Center for Semiconductor Manufacturing](https://csm.arizona.edu/)
+- 📧 **Contact**: aihdl-support@arizona.edu
+- 💬 **Discord**: [Join our community](https://discord.gg/your-discord-link)
 
 ---
 
@@ -277,11 +282,16 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 In
 
 ## 🙏 Acknowledgments
 
-Special thanks to:
+This repository is inspired by and builds upon the excellent work of the [University of Arizona AI Hardware Design League](https://csm.arizona.edu/AIHDL). Special thanks to:
+
+- **University of Arizona** [Center for Semiconductor Manufacturing](https://csm.arizona.edu/) and the AI-HDL organizing team
+- **Dr. Soheil Salehi** and the AI-HDL leadership team for pioneering AI-assisted hardware design education
 - All participating universities and their dedicated faculty
-- Industry sponsors who make this competition possible
+- Industry sponsors (ARM, NVIDIA) who make these competitions possible
 - The open-source hardware and AI communities
 - Student participants who drive innovation forward
+
+**Note**: This repository provides a framework for organizing similar competitions. For the official University of Arizona AI-HDL program, visit [csm.arizona.edu/AIHDL](https://csm.arizona.edu/AIHDL).
 
 ---
 

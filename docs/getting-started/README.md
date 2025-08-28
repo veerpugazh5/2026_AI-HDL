@@ -239,4 +239,12 @@ Once your team is formed:
 
 Ready to start your AI-HDL journey? Let's build the future of hardware design together! 🚀
 
+## 🌐 Learn More
+
+- **Official AI-HDL Program**: [University of Arizona AI-HDL](https://csm.arizona.edu/AIHDL)
+- **Center for Semiconductor Manufacturing**: [csm.arizona.edu](https://csm.arizona.edu/)
+- **Educational Resources**: See the official site for tutorials and guides
+
+*This framework is inspired by the successful University of Arizona AI-HDL program.*
+
 *Last updated: [Date] | Version: 1.0*
