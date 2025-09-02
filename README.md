@@ -102,7 +102,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 ### **Design Process**
 1. **AI-Generated Design**: Use LLMs to generate Verilog code
 2. **Verification**: Test with provided and custom test benches  
-3. **FPGA Implementation**: Deploy on real hardware with mentor guidance
+3. **Tapeout**: Work with mentors to learn and deploy a full RTL-GDSII flow
 4. **Documentation**: Maintain detailed design logs and AI interaction records
 
 ### **Weekly Commitment**
@@ -158,6 +158,10 @@ Students from the following partner institutions:
 #### **🇩🇪 Germany**
 - University of Heidelberg
 
+
+---
+
+
 ### **Want to Join from Another Institution?**
 We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be notified when we add new partner universities.
 
@@ -168,8 +172,6 @@ We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be not
 4. Receive welcome packet and Discord access
 
 **Registration is FREE!** 🎉 -->
-
----
 
 ## 🛠️ Tools & Resources
 
