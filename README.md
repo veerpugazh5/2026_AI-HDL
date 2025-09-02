@@ -135,7 +135,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 ---
 
-## 🎓 Eligibility & Registration
+<!-- ## 🎓 Eligibility & Registration
 
 ### **Who Can Participate?**
 Students from the following partner institutions:
@@ -167,7 +167,7 @@ We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be not
 3. Complete eligibility verification
 4. Receive welcome packet and Discord access
 
-**Registration is FREE!** 🎉
+**Registration is FREE!** 🎉 -->
 
 ---
 
