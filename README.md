@@ -158,20 +158,18 @@ Students from the following partner institutions:
 #### **🇩🇪 Germany**
 - University of Heidelberg
 
-
----
-
-
 ### **Want to Join from Another Institution?**
 We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be notified when we add new partner universities.
 
+-->
+---
 ### **Registration Process**
-1. Visit our [Registration Portal](https://forms.gle/your-registration-form)
+1. Visit our [Registration Portal](https://docs.google.com/forms/d/e/1FAIpQLSe6LTRPkqw-YOFeX3-YZVK2HS8GJBzeZ68brD8CNb_waoqoxg/viewform?usp=header)
 2. Choose individual or team registration
 3. Complete eligibility verification
 4. Receive welcome packet and Discord access
 
-**Registration is FREE!** 🎉 -->
+**Registration is FREE!** 🎉 
 
 ## 🛠️ Tools & Resources
 
