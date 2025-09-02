@@ -52,7 +52,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 |------|--------|
 | **September 2025** | Registration Opens |
 | **December 2025** | Registration Closes |
-| **October  2025** | League Kickoff & Team Formation |
+| **October 7-9 2025** | League Kickoff Event (@ SEMICON West, Pheonix, AZ) |
 | **October  2025** | Friendlies (Webinar) #1 Released |
 | **November  2025** | Friendlies (Webinar) #2 Released |
 | **December  2025** | Friendlies (Webinar) #3 Released |
@@ -61,7 +61,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 | **March  2026** |Playoffs - Design Problem #2 |
 | **April  2026** | Finals – Virtual workshop for FPGA to ASIC Tapeout design |
 | **May 2026** | Final Submission and Design Sign-off|
-| **July 25 - 29, 2026** | Awards Ceremony (@ 63rd DAC 2026 - Design Automation Conference) |
+| **July 25 - 29, 2026** | Awards Ceremony (@ 63rd DAC 2026 - Design Automation Conference, Long Beach, CA) |
 
 ---
 
