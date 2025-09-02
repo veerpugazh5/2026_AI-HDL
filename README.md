@@ -50,17 +50,18 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 | Date | Event |
 |------|--------|
-| **August 15, 2025** | Registration Opens |
-| **September 30, 2025** | Registration Closes |
-| **October 15, 2025** | League Kickoff & Team Formation |
-| **November 1, 2025** | Challenge #1 Released |
-| **December 1, 2025** | Challenge #2 Released |
-| **January 15, 2026** | Challenge #3 Released |
-| **February 15, 2026** | Milestone Review #1 |
-| **March 15, 2026** | Milestone Review #2 |
-| **April 15, 2026** | Final Design Submissions Due |
-| **May 1, 2026** | Winner Announcement |
-| **May 15, 2026** | Awards Ceremony |
+| **September 2025** | Registration Opens |
+| **December 2025** | Registration Closes |
+| **October  2025** | League Kickoff & Team Formation |
+| **October  2025** | Friendlies (Webinar) #1 Released |
+| **November  2025** | Friendlies (Webinar) #2 Released |
+| **December  2025** | Friendlies (Webinar) #3 Released |
+| **January  2026** | Group Stage - Design Problem #1 Released |
+| **February  2026** | Playoffs - Design Problem #3 |
+| **March  2026** |Playoffs - Design Problem #2 |
+| **April  2026** | Finals – Virtual workshop for FPGA to ASIC Tapeout design |
+| **May 2026** | Final Submission and Design Sign-off|
+| **July 25 - 29, 2026** | Awards Ceremony (@ 63rd DAC 2026 - Design Automation Conference) |
 
 ---
 
@@ -92,7 +93,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 ## 🏗️ Competition Structure
 
 ### **Team Formation**
-- **Team Size**: 3-5 students
+- **Team Size**: 3-4 students
 - **Divisions**: 
   - Lower Division (Community College & Undergraduate)
   - Upper Division (Graduate)
