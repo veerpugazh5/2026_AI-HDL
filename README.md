@@ -162,7 +162,7 @@ Students from the following partner institutions:
 We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be notified when we add new partner universities.
 
 -->
----
+
 ### **Registration Process**
 1. Visit our [Registration Portal](https://docs.google.com/forms/d/e/1FAIpQLSe6LTRPkqw-YOFeX3-YZVK2HS8GJBzeZ68brD8CNb_waoqoxg/viewform?usp=header)
 2. Choose individual or team registration
@@ -170,6 +170,8 @@ We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be not
 4. Receive welcome packet and Discord access
 
 **Registration is FREE!** 🎉 
+
+---
 
 ## 🛠️ Tools & Resources
 
