@@ -215,21 +215,66 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 
 ---
 
-## 🏢 Sponsors & Partners
+## **SPONSORSHIP**
 
-<div align="center">
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
 
-### **Diamond Sponsors**
-[![ARM](https://img.shields.io/badge/ARM-Official%20Partner-0091BD?style=for-the-badge&logo=arm)](https://arm.com)
-[![NVIDIA](https://img.shields.io/badge/NVIDIA-AI%20Partner-76B900?style=for-the-badge&logo=nvidia)](https://nvidia.com)
+### **AI-HDL Sponsors**
+
+<!-- University of Arizona - Centered at top -->
+<div style="text-align: center; margin-bottom: 30px;">
+<img src="./assets/sponsors/university-of-arizona-logo.png" alt="University of Arizona" height="80" style="max-width: 100%;"/>
+</div>
+
+<!-- Main sponsors grid - 2x2 layout -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px 40px; align-items: center; justify-items: center; margin-bottom: 30px;">
+
+<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100px;">
+<img src="./assets/sponsors/arm-log.png" alt="ARM" height="80" style="max-width: 100%;"/>
+</div>
+
+<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100px;">
+<img src="./assets/sponsors/nvidia-logo.png" alt="NVIDIA" height="80" style="max-width: 100%;"/>
+</div>
+
+<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100px;">
+<img src="./assets/sponsors/cadence-logo.jpg" alt="Cadence" height="80" style="max-width: 100%;"/>
+</div>
+
+<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100px;">
+<img src="./assets/sponsors/synopsys-logo.png" alt="Synopsys" height="80" style="max-width: 100%;"/>
+</div>
+
+</div>
+
+<!-- Bottom row - Foundry partners -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px 40px; align-items: center; justify-items: center;">
+
+<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 80px;">
+<img src="./assets/sponsors/chipfoundry-logo.png" alt="Chip Foundry" height="60" style="max-width: 100%;"/>
+</div>
+
+<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 80px;">
+<img src="./assets/sponsors/chipmango-logo.png" alt="Chip Mango" height="60" style="max-width: 100%;"/>
+</div>
+
+</div>
+
+</div>
 
 ### **Academic Partners**
 University of Arizona • University of New South Wales • Hanoi University of Science and Technology • VNU University of Engineering and Technology • Digital University of Kerala • University of Heidelberg
 
-</div>
-
 ### **Become a Sponsor**
 Interested in supporting the next generation of hardware designers? 
+
+**Current sponsors provide:**
+- **EDA Tools & Software Licenses** (Synopsys, Cadence)
+- **Hardware & AI Acceleration** (NVIDIA, AMD)
+- **Educational Resources & Mentorship** (ARM)
+- **Research Funding & Grants** (NSF)
+- **Manufacturing & Tapeout Opportunities** (Foundry Partners)
+
 [Learn about sponsorship opportunities](./docs/sponsorship.md)
 
 ---
@@ -287,8 +332,8 @@ This repository is inspired by and builds upon the excellent work of the [Univer
 
 - **University of Arizona** [Center for Semiconductor Manufacturing](https://csm.arizona.edu/) and the AI-HDL organizing team
 - **Dr. Soheil Salehi** and the AI-HDL leadership team for pioneering AI-assisted hardware design education
+- **Major Industry Sponsors**: Synopsys, Cadence, NVIDIA, ARM, AMD, NSF, and foundry partners
 - All participating universities and their dedicated faculty
-- Industry sponsors (ARM, NVIDIA) who make these competitions possible
 - The open-source hardware and AI communities
 - Student participants who drive innovation forward
 
