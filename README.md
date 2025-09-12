@@ -23,7 +23,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 📖 **[Learn more about the connection to the official AI-HDL program →](./docs/about-aihdl.md)**
 
 ### 🎬 Watch Our Introduction Video
-*[Link to introduction video will be added]*
+[https://www.youtube.com/watch?v=G1RHn9tjTpY&t=1s]
 
 ---
 
@@ -164,7 +164,7 @@ We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be not
 -->
 
 ### **Registration Process**
-1. Visit our [Registration Portal](https://docs.google.com/forms/d/e/1FAIpQLSe6LTRPkqw-YOFeX3-YZVK2HS8GJBzeZ68brD8CNb_waoqoxg/viewform?usp=header)
+1. Visit our [Registration Portal](https://docs.google.com/forms/d/e/1FAIpQLSfK97GMOZIOzQLzJRQgRvERSuNhRE7zJlNWxrSctKrx-hGh0g/viewform?pli=1)
 2. Choose individual or team registration
 3. Complete eligibility verification
 4. Receive welcome packet and Discord access
@@ -200,20 +200,16 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 
 ## 📚 Educational Resources
 
-### **Getting Started**
-- [Introduction to Digital Design](./docs/intro-to-digital-design.md)
-- [AI for Hardware Design Guide](./docs/ai-hardware-guide.md)
-- [Verilog Crash Course](./docs/verilog-crash-course.md)
 
 ### **Video Tutorials**
-- [What is an FPGA?](https://example.com/fpga-intro)
-- [Using ChatGPT for Verilog](https://example.com/chatgpt-verilog)
-- [Hardware Security Basics](https://example.com/hw-security)
+- [What is an FPGA?](https://www.youtube.com/watch?v=2maAkrQzCkk)
+- [An Introduction to Verilog](https://www.youtube.com/watch?v=q1QwC3YlHG0)
+- [What is Processor Security](https://www.youtube.com/watch?v=Qc6KM3srq4c)
 
 ### **Industry Insights**
-- [ARM Education Resources](https://www.arm.com/resources/education)
-- [Semiconductor Career Paths](./docs/career-paths.md)
-- [Latest Industry Trends](./docs/industry-trends.md)
+- [ARM Education](https://github.com/arm-university?q=hardware+design&type=all&language=&sort=)
+- [Accelerating Learing](https://www.arm.com/resources/education/online-courses)
+- [Latest Industry Trends](https://www.edx.org/school/armeducation)
 
 ---
 
@@ -272,7 +268,7 @@ Interested in supporting the next generation of hardware designers?
 - **Research Funding & Grants** (NSF)
 - **Manufacturing & Tapeout Opportunities** (Foundry Partners)
 
-[Learn about sponsorship opportunities](./docs/sponsorship.md)
+[Learn about sponsorship opportunities](https://docs.google.com/forms/d/e/1FAIpQLSdGh3RLK9qGv9ij3YxkrYtFA3ihsdO0pD0tZ0NQcQTs4n6TTg/viewform?usp=send_form)
 
 ---
 
@@ -299,15 +295,13 @@ AIHDL-2025-2026/
 
 ### **Get Help**
 - 💬 **Discord**: Join our active community for real-time help
-- 📧 **Email**: aihdl-support@arizona.edu
 - 📋 **Office Hours**: Weekly virtual sessions with mentors
 - 🐛 **Issues**: Report problems via GitHub Issues
 
 ### **Stay Connected**
 - 🌐 **Official AI-HDL Website**: [csm.arizona.edu/AIHDL](https://csm.arizona.edu/AIHDL)
 - 🎓 **University of Arizona**: [Center for Semiconductor Manufacturing](https://csm.arizona.edu/)
-- 📧 **Contact**: aihdl-support@arizona.edu
-- 💬 **Discord**: [Join our community](https://discord.gg/your-discord-link)
+- 💬 **Discord**: [Join our community](https://discord.com/invite/dFXMvX6cNG)
 
 ---
 
@@ -342,7 +336,7 @@ This repository is inspired by and builds upon the excellent work of the [Univer
 
 **Ready to design the future?** 🚀
 
-[**REGISTER NOW**](https://forms.gle/your-registration-form) | [**Join Discord**](https://discord.gg/your-discord) | [**Learn More**](https://csm.arizona.edu/AIHDL)
+[**REGISTER NOW**](https://docs.google.com/forms/d/e/1FAIpQLSfK97GMOZIOzQLzJRQgRvERSuNhRE7zJlNWxrSctKrx-hGh0g/viewform?pli=1) | [**Join Discord**](https://discord.com/invite/dFXMvX6cNG) | [**Learn More**](https://csm.arizona.edu/AIHDL)
 
 *Building tomorrow's chips with today's AI* ⚡
 
