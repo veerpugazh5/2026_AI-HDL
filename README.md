@@ -223,44 +223,37 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 
 ### **AI-HDL Sponsors**
 
-<!-- University of Arizona - Centered at top -->
-<div style="text-align: center; margin-bottom: 30px;">
-<img src="./assets/sponsors/university-of-arizona-logo.png" alt="University of Arizona" height="80" style="max-width: 100%;"/>
-</div>
-
-<!-- Main sponsors grid - 2x2 layout -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px 40px; align-items: center; justify-items: center; margin-bottom: 30px;">
-
-<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100px;">
-<img src="./assets/sponsors/arm-log.png" alt="ARM" height="80" style="max-width: 100%;"/>
-</div>
-
-<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100px;">
-<img src="./assets/sponsors/nvidia-logo.png" alt="NVIDIA" height="80" style="max-width: 100%;"/>
-</div>
-
-<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100px;">
-<img src="./assets/sponsors/cadence-logo.jpg" alt="Cadence" height="80" style="max-width: 100%;"/>
-</div>
-
-<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100px;">
-<img src="./assets/sponsors/synopsys-logo.png" alt="Synopsys" height="80" style="max-width: 100%;"/>
-</div>
-
-</div>
-
-<!-- Bottom row - Foundry partners -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px 40px; align-items: center; justify-items: center;">
-
-<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 80px;">
-<img src="./assets/sponsors/chipfoundry-logo.png" alt="Chip Foundry" height="60" style="max-width: 100%;"/>
-</div>
-
-<div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 80px;">
-<img src="./assets/sponsors/chipmango-logo.png" alt="Chip Mango" height="60" style="max-width: 100%;"/>
-</div>
-
-</div>
+<table width="100%" style="border: none;">
+<tr>
+<td colspan="2" align="center" style="padding: 20px;">
+<img src="./assets/sponsors/university-of-arizona-logo.png" alt="University of Arizona" height="80"/>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 20px;">
+<img src="./assets/sponsors/arm-log.png" alt="ARM" height="80"/>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="./assets/sponsors/nvidia-logo.png" alt="NVIDIA" height="80"/>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 20px;">
+<img src="./assets/sponsors/cadence-logo.jpg" alt="Cadence" height="80"/>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="./assets/sponsors/synopsys-logo.png" alt="Synopsys" height="80"/>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 20px;">
+<img src="./assets/sponsors/chipfoundry-logo.png" alt="Chip Foundry" height="60"/>
+</td>
+<td align="center" style="padding: 20px;">
+<img src="./assets/sponsors/chipmango-logo.png" alt="Chip Mango" height="60"/>
+</td>
+</tr>
+</table>
 
 </div>
 
