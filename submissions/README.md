@@ -396,28 +396,4 @@ Also submit via alternative method:
 - Professional presentation
 - Insightful reflection and learning
 
-## 📞 Support and Questions
 
-### Submission Help
-- **Discord**: #submission-help channel
-- **Email**: aihdl-submissions@arizona.edu
-- **Office Hours**: Weekly virtual sessions
-
-### Technical Issues
-- **File format problems**: aihdl-tech@arizona.edu
-- **Upload issues**: Check portal status page
-- **Deadline extensions**: Only for documented emergencies
-
-### Last-Minute Support
-48 hours before deadline:
-- **Discord**: Monitor #urgent-help channel
-- **Email**: Response within 4 hours during business days
-- **Emergency contact**: [Phone number for critical issues]
-
----
-
-**Remember**: Start your submission preparation early! Don't wait until the last minute to organize your files and documentation.
-
-Good luck with your submission! 🚀
-
-*Last updated: [Date] | Version: 1.0*
