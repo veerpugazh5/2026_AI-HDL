@@ -223,7 +223,8 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 
 ### **AI-HDL Sponsors**
 
-<table width="100%" style="border: none;">
+<div align="center">
+<table style="border: none; margin: 0 auto;">
 <tr>
 <td colspan="2" align="center" style="padding: 20px;">
 <img src="./assets/sponsors/university-of-arizona-logo.png" alt="University of Arizona" height="80"/>
@@ -254,6 +255,7 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 </td>
 </tr>
 </table>
+</div>
 
 </div>
 
