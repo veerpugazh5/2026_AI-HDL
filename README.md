@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![AI-HDL Logo](https://img.shields.io/badge/AI--HDL-2025--2026-blue?style=for-the-badge)
+[![AI-HDL Logo](https://img.shields.io/badge/AI--HDL-2025--2026-blue?style=for-the-badge)](https://csm.arizona.edu/AIHDL)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=flat&logo=discord)](https://discord.gg/your-discord-link)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=flat&logo=discord)](https://discord.com/invite/dFXMvX6cNG)
 
 **Empowering the Next Generation of Hardware Designers with AI**
 
