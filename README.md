@@ -231,7 +231,7 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 </tr>
 <tr>
 <td align="center" style="padding: 20px;">
-<img src="./assets/sponsors/arm-log.png" alt="ARM" height="80"/>
+<img src="./assets/sponsors/arm-logo.png" alt="ARM" height="80"/>
 </td>
 <td align="center" style="padding: 20px;">
 <img src="./assets/sponsors/nvidia-logo.png" alt="NVIDIA" height="80"/>
@@ -239,7 +239,7 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 </tr>
 <tr>
 <td align="center" style="padding: 20px;">
-<img src="./assets/sponsors/cadence-logo.jpg" alt="Cadence" height="80"/>
+<img src="./assets/sponsors/cadence-logo.png" alt="Cadence" height="80"/>
 </td>
 <td align="center" style="padding: 20px;">
 <img src="./assets/sponsors/synopsys-logo.png" alt="Synopsys" height="80"/>
