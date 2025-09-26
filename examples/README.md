@@ -222,30 +222,6 @@ Include comments explaining the design decisions.
 - **Optimization Session**: Using AI for performance tuning
 - **Debugging Help**: AI-assisted troubleshooting
 
-## 🏗️ Complete Project Examples
-
-### Project 1: Digital Clock
-**Location**: `fpga_projects/digital_clock/`
-- Seven-segment display driver
-- Time keeping logic
-- Button interface for setting
-- Complete FPGA implementation
-
-### Project 2: Simple CPU
-**Location**: `fpga_projects/simple_cpu/`
-- Instruction set architecture
-- Datapath and control unit
-- Memory interface
-- Assembly programs
-
-### Project 3: Communication Interface
-**Location**: `fpga_projects/uart_interface/`
-- UART transmitter and receiver
-- FIFO buffers
-- PC communication software
-- Test applications
-
-
 
 ## 🔍 Code Quality Guidelines
 
