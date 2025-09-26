@@ -85,7 +85,7 @@ team-name-challenge-X/
 The AI-HDL competition employs a progressive elimination grading scheme across four design phases (DP1–DP4). Each phase is graded independently according to its rubric, with only the strongest teams advancing to the next stage. At the end of the competition, cumulative performance determines the final ranking and winners.
 
 ##	**Phase-Based Evaluation and Elimination**
-**Design Phase 1** 
+     **Design Phase 1** 
      - 	**Weight**: 20% of total score
       - 	**Cutoff**: Bottom 25–30% of teams eliminated based on functionality, verification success, and documentation completeness.
       - 	**Advancement Criteria**: Teams must demonstrate a functional, synthesizable RTL with successful testbench results.
