@@ -264,7 +264,7 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 
 ## **SPONSORSHIP**
 
-<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<div style="background-color: #ffffff; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #e1e4e8;">
 
 ### **AI-HDL Sponsors**
 
