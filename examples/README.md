@@ -223,6 +223,7 @@ Include comments explaining the design decisions.
 - **Debugging Help**: AI-assisted troubleshooting
 
 
+
 ## 🔍 Code Quality Guidelines
 
 ### Verilog Style
