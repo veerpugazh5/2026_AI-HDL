@@ -8,8 +8,8 @@ This directory contains example designs, templates, and reference implementation
 examples/
 ├── basic_modules/           # Simple Verilog modules for learning
 ├── ai_prompts/             # Example AI prompts and conversations
-├── testbenches/            # Testbench templates and examples
-├── design_patterns/        # Common hardware design patterns
+├── testbenches/            # Testbench examples
+├── design_ideas/           # Common hardware design ideas
 ├── optimization/           # Examples of optimized designs
 ├── fpga_projects/          # Complete FPGA implementation examples
 └── team_submissions/       # Anonymized examples from previous years
