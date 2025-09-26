@@ -8,8 +8,8 @@ This directory contains example designs, templates, and reference implementation
 examples/
 ├── basic_modules/           # Simple Verilog modules for learning
 ├── ai_prompts/             # Example AI prompts and conversations
-├── testbenches/            # Testbench examples
-├── design_ideas/           # Common hardware design ideas
+├── testbenches/            # Testbench templates and examples
+├── design_patterns/        # Common hardware design patterns
 ├── optimization/           # Examples of optimized designs
 ├── fpga_projects/          # Complete FPGA implementation examples
 └── team_submissions/       # Anonymized examples from previous years
@@ -221,6 +221,29 @@ Include comments explaining the design decisions.
 - **Memory Controller**: Complex interface design with AI
 - **Optimization Session**: Using AI for performance tuning
 - **Debugging Help**: AI-assisted troubleshooting
+
+## 🏗️ Complete Project Examples
+
+### Project 1: Digital Clock
+**Location**: `fpga_projects/digital_clock/`
+- Seven-segment display driver
+- Time keeping logic
+- Button interface for setting
+- Complete FPGA implementation
+
+### Project 2: Simple CPU
+**Location**: `fpga_projects/simple_cpu/`
+- Instruction set architecture
+- Datapath and control unit
+- Memory interface
+- Assembly programs
+
+### Project 3: Communication Interface
+**Location**: `fpga_projects/uart_interface/`
+- UART transmitter and receiver
+- FIFO buffers
+- PC communication software
+- Test applications
 
 
 
