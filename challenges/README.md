@@ -18,47 +18,38 @@ challenge-X/
 
 ## Challenges Overview
 
-3.2.1.	
-3.2.5.	Grading Criteria
-3.3.	Stage 3: 
-3.3.1.
-3.3.5.	Grading Criteria
-3.4.	Stage 
-3.4.1.	
-3.4.5.	Grading Criteria
-
 
 ### 🎯 Design phase 1: Additional Module Synthesis
-**Week 1:** Project Kickoff & Base Integration
-**Week 2:** Module Development & Unit Testing
-**Week 3:** Integration & Full-Core Simulation
-**Week 4:** Final Verification & Milestone Prep
-**Focus**: Basic digital design with AI assistance  
-**Skills**: Verilog fundamentals, AI prompting, FPGA implementation
+- **Week 1:** Project Kickoff & Base Integration
+- **Week 2:** Module Development & Unit Testing
+- **Week 3:** Integration & Full-Core Simulation
+- **Week 4:** Final Verification & Milestone Prep
+- **Focus**: Basic digital design with AI assistance  
+- **Skills**: Verilog fundamentals, AI prompting, FPGA implementation
 
 ### 🎯 Design phase 2:  PPA Optimization 
-**Week 5:** Baseline Analysis & Optimization Planning
-**Week 6:** Implementation of Performance Improvements
-**Week 7:** Power Optimization & Fine-Tuning
-**Week 8:** Final PPA Review & Milestone Prep
-**Focus**: Complex functionality and optimization  
-**Skills**: Advanced Verilog, performance optimization, verification
+- **Week 5:** Baseline Analysis & Optimization Planning
+- **Week 6:** Implementation of Performance Improvements
+- **Week 7:** Power Optimization & Fine-Tuning
+- **Week 8:** Final PPA Review & Milestone Prep
+- **Focus**: Complex functionality and optimization  
+- **Skills**: Advanced Verilog, performance optimization, verification
 
 ### 🎯 Design phase 3: Security & Vulnerability Optimization
-**Week 9:** Project Kickoff & Base Integration
-**Week 10:** Implementing Security Features
-**Week 11:** Validation & Hardening
-**Week 12:** Documentation & Milestone Prep
-**Focus**: Hardware security and creative AI usage  
-**Skills**: Security-aware design, innovative AI applications, comprehensive testing
+- **Week 9:** Project Kickoff & Base Integration
+- **Week 10:** Implementing Security Features
+- **Week 11:** Validation & Hardening
+- **Week 12:** Documentation & Milestone Prep
+- **Focus**: Hardware security and creative AI usage  
+- **Skills**: Security-aware design, innovative AI applications, comprehensive testing
 
 ### 🎯 Design phase 4: RTL to GDSII Implementation
-**Week 13:** Synthesis & Floorplanning
-**Week 14:** Placement, CTS & Routing
-**Week 15:** Sign-off Verification (Timing, DRC/LVS, Power)
-**Week 16:** Final PPA Review & Milestone Prep
-**Focus**: Hardware security and creative AI usage  
-**Skills**: Security-aware design, innovative AI applications, comprehensive testing
+- **Week 13:** Synthesis & Floorplanning
+- **Week 14:** Placement, CTS & Routing
+- **Week 15:** Sign-off Verification (Timing, DRC/LVS, Power)
+- **Week 16:** Final PPA Review & Milestone Prep
+- **Focus**: Hardware security and creative AI usage  
+- **Skills**: Security-aware design, innovative AI applications, comprehensive testing
 
 ## Getting Started
 
