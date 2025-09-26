@@ -1,6 +1,5 @@
 # Design Phase 1: Initial Design Implementation & Additional Module Synthesis
 
----
 
 ## Overview
 This phase focuses on the foundational design implementation where teams create their initial hardware design by implementing additional modules to complete the base design and ensuring the core’s baseline functionality is verified using AI tools.
@@ -10,7 +9,6 @@ This phase focuses on the foundational design implementation where teams create 
 - **Milestone Review**: January 29, 2026
 - **Office Hours**: January 29, 2026
 
----
 
 ## Week 1: Project Kickoff & Base Integration
 **Objectives**
@@ -90,14 +88,22 @@ This phase focuses on the foundational design implementation where teams create 
 - Is documentation complete and updated?  
 - Is the team prepared for the next optimization phase?  
 
---=
 
 ## Tools
 - *Open-Source*: Verilator (simulation), Yosys (initial synthesis trials).  
 - *Cadence*: Xcelium (simulation), Genus (synthesis).  
 - *Required*: LLMs like ChatGPT to generate HDL code.  
 
----
+## Evaluation Criteria 
+
+| Category                        | Weight | Criteria                                                                 |
+|---------------------------------|--------|--------------------------------------------------------------------------|
+| **Module Implementation**       | 30%    | Completeness of added modules; correctness of Verilog code; proper integration into the core. |
+| **Verification & Testing**      | 25%    | Passing provided testbenches; additional custom tests; quality of simulation reports/waveforms. |
+| **Synthesis Readiness**         | 15%    | RTL synthesizable without errors; baseline synthesis report included (area/timing). |
+| **Documentation & Planning**    | 20%    | Clear project plan, block diagrams, LLM prompt logs, and design documentation. |
+| **Code Quality & Repository Management** | 10% | Use of GitHub tags, clean commits, comments, and consistent style. |
+
 
 ## Resources
 - [AI Prompting Guidelines](../../docs/ai-guides/)
