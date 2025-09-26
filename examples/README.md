@@ -87,132 +87,114 @@ iverilog -o multiplier multiplier.v multiplier_tb.v
 - AI-generated optimization
 - Debugging with AI assistance
 
-## 🧪 Testbench Templates
+## 💡 Ideas for Additional Peripherals
 
-### Basic Testbench Template
-```verilog
-// Template for simple combinational logic testing
-module basic_tb;
-    // Testbench signals
-    reg [WIDTH-1:0] inputs;
-    wire [WIDTH-1:0] outputs;
-    
-    // Instantiate unit under test
-    your_module uut (
-        .input_port(inputs),
-        .output_port(outputs)
-    );
-    
-    // Test stimulus
-    initial begin
-        $dumpfile("test.vcd");
-        $dumpvars(0, basic_tb);
-        
-        // Test cases
-        inputs = 0; #10;
-        inputs = 1; #10;
-        // Add more test cases
-        
-        $finish;
-    end
-    
-    // Monitor outputs
-    initial begin
-        $monitor("Time: %0t, Input: %b, Output: %b", $time, inputs, outputs);
-    end
-endmodule
-```
+This section lists potential peripherals that teams can implement or extend as part of the TinyQV project.  
+They are modular: some are **simple** and good for quick wins, while others are **complex** and earn innovation points.
 
-### Advanced Testbench Template
-```verilog
-// Template for complex sequential logic testing
-module advanced_tb;
-    // Clock and reset
-    reg clk, rst;
-    
-    // Test signals
-    reg [WIDTH-1:0] test_data;
-    wire [WIDTH-1:0] result;
-    wire valid, ready;
-    
-    // Clock generation
-    always #5 clk = ~clk;
-    
-    // Instantiate UUT
-    your_complex_module uut (
-        .clk(clk),
-        .rst(rst),
-        .data_in(test_data),
-        .data_out(result),
-        .valid_out(valid),
-        .ready_in(ready)
-    );
-    
-    // Test sequence
-    initial begin
-        // Initialize
-        clk = 0;
-        rst = 1;
-        test_data = 0;
-        
-        // Setup waveform dump
-        $dumpfile("advanced_test.vcd");
-        $dumpvars(0, advanced_tb);
-        
-        // Reset sequence
-        #20 rst = 0;
-        
-        // Test cases
-        repeat (100) begin
-            test_data = $random;
-            wait(ready);
-            @(posedge clk);
-            wait(valid);
-            // Check results
-            if (result != expected_result(test_data)) begin
-                $display("ERROR: Expected %h, got %h", expected_result(test_data), result);
-            end
-        end
-        
-        $finish;
-    end
-    
-    // Expected result function
-    function [WIDTH-1:0] expected_result;
-        input [WIDTH-1:0] data;
-        begin
-            // Implement expected behavior
-            expected_result = data; // Modify as needed
-        end
-    endfunction
-endmodule
-```
+### 1. UART / Serial Interface
+- **Purpose:** Provides a communication/debug link via serial RX/TX.  
+- **Benefits:** Essential for testing, allows program loading or simple I/O.  
+- **Complexity:** Low to medium.  
+- **Considerations:**  
+  - Buffer management to avoid overflow.  
+  - Baud rate control for timing accuracy.  
+  - Add enable/disable logic to save power.  
 
-## 🎨 Design Patterns
 
-### 1. State Machine Pattern
-**Location**: `design_patterns/state_machine/`
-- Moore and Mealy machines
-- One-hot vs binary encoding
-- Reset and error handling
+### 2. SPI or I²C Controller
+- **Purpose:** Interfaces with off-chip devices like sensors or EEPROMs.  
+- **Benefits:** Realistic SoC peripheral; enables expansion.  
+- **Complexity:** Medium.  
+- **Considerations:**  
+  - Mode selection (master/slave, fast/slow).  
+  - Arbitration logic (for I²C).  
+  - Protect against glitch attacks or unintended bus driving.  
 
-### 2. Pipeline Pattern
-**Location**: `design_patterns/pipeline/`
-- Multi-stage processing
-- Flow control and backpressure
-- Hazard detection and resolution
+### 3. PWM Generator / Timer
+- **Purpose:** Produces periodic signals for motor control, LEDs, etc.  
+- **Benefits:** Tests timer and interrupt logic.  
+- **Complexity:** Simple logic.  
+- **Considerations:**  
+  - Avoid counter overflow bugs.  
+  - Clock gating when idle.  
+  - Use watchdog features to prevent runaway states.  
 
-### 3. Memory Interface Pattern
-**Location**: `design_patterns/memory/`
-- SRAM and DRAM interfaces
-- FIFO and circular buffers
-- Memory controllers
 
-### 4. Communication Patterns
-**Location**: `design_patterns/communication/`
-- UART, SPI, I2C interfaces
-- Protocol stacks
-- Error detection and correction
+### 4. AES / Crypto Accelerator
+- **Purpose:** Hardware block for encryption/decryption.  
+- **Benefits:** Great for security-oriented teams; demonstrates hardware acceleration.  
+- **Complexity:** Medium to high.  
+- **Considerations:**  
+  - Constant-time implementation to resist side-channels.  
+  - Manage power overhead (crypto engines are expensive).  
+  - Integrate with memory-mapped registers.  
+
+
+### 5. CRC / Checksum Unit
+- **Purpose:** Computes cyclic redundancy check for data validation.  
+- **Benefits:** Lightweight but widely used in communication protocols.  
+- **Complexity:** Medium.  
+- **Considerations:**  
+  - Add fault injection tests.  
+  - Ensure polynomial logic is parameterizable.  
+  - Document error coverage rates.  
+
+
+### 6. DMA Controller
+- **Purpose:** Automates data transfers between memory and peripherals.  
+- **Benefits:** Adds realism to SoC flow; useful in performance evaluation.  
+- **Complexity:** High (requires bus arbitration).  
+- **Considerations:**  
+  - Memory protection (avoid overwriting critical regions).  
+  - Ensure correctness under simultaneous transfers.  
+  - Add a simple priority mechanism.  
+
+
+### 7. GPIO Controller / Expander
+- **Purpose:** Provides general-purpose I/O pins.  
+- **Benefits:** Easy to test and expand functionality.  
+- **Complexity:** Low.  
+- **Considerations:**  
+  - Input debouncing for switches.  
+  - Output protection to avoid short-circuits.  
+  - Restrict access to sensitive pins.  
+
+
+### 8. Watchdog Timer
+- **Purpose:** Resets system if not serviced periodically.  
+- **Benefits:** Classic embedded feature, introduces reliability.  
+- **Complexity:** Low.  
+- **Considerations:**  
+  - Ensure it cannot be disabled maliciously.  
+  - Document timeout programming model.  
+  - Optimize area for minimal overhead.  
+
+
+### 9. FIFO / Queue Buffer
+- **Purpose:** Buffers data between producer and consumer.  
+- **Benefits:** Tests handshakes and backpressure.  
+- **Complexity:** Medium.  
+- **Considerations:**  
+  - Protect against overflow/underflow.  
+  - Ensure back-to-back transfer performance.  
+  - Verify with corner-case stress tests.  
+
+
+### 10. Interrupt Controller
+- **Purpose:** Manages and prioritizes multiple interrupt sources.  
+- **Benefits:** Adds system realism; teaches interrupt handling.  
+- **Complexity:** Medium.  
+- **Considerations:**  
+  - Secure masking/unmasking of interrupts.  
+  - Prevent privilege escalation through spurious interrupts.  
+  - Ensure deterministic latency.  
+
+
+✅ **Guidance for Teams**  
+- Start with **simple peripherals** (GPIO, Timer, FIFO) if new to RTL design.  
+- Attempt **complex ones** (DMA, Crypto, Interrupt Controller) for innovation and higher competition scoring.  
+
 
 ## 🔧 AI Prompting Examples
 
@@ -263,40 +245,7 @@ Include comments explaining the design decisions.
 - PC communication software
 - Test applications
 
-## 📊 Previous Competition Examples
 
-### Challenge 1 Examples (Anonymized)
-**Location**: `team_submissions/challenge1/`
-- **Winner**: Advanced calculator with optimization
-- **Creative**: Unique AI usage approach
-- **Secure**: Security-focused implementation
-- **Efficient**: Area and power optimized design
-
-### Challenge 2 Examples (Anonymized)
-**Location**: `team_submissions/challenge2/`
-- **Complex Systems**: Multi-module designs
-- **Advanced Features**: Beyond basic requirements
-- **Innovation**: Novel approaches and techniques
-
-## 🎓 Learning Exercises
-
-### Exercise 1: Gate-Level Design
-1. Implement a 4-bit comparator using only basic gates
-2. Create comprehensive testbench
-3. Use AI to optimize for different metrics
-4. Compare your solution with provided examples
-
-### Exercise 2: AI-Assisted Counter
-1. Prompt AI to design an up/down counter
-2. Add features iteratively with AI help
-3. Implement on FPGA
-4. Document your AI interaction process
-
-### Exercise 3: Design Pattern Application
-1. Choose a pattern from `design_patterns/`
-2. Apply it to solve a new problem
-3. Use AI for implementation guidance
-4. Compare with reference solutions
 
 ## 🔍 Code Quality Guidelines
 
@@ -348,4 +297,4 @@ Include comments explaining the design decisions.
 
 Remember: These examples are learning tools, not solutions to copy. Use them to understand concepts, learn techniques, and develop your own problem-solving approaches!
 
-*Last updated: [Date] | Version: 1.0*
+*Last updated: [9/26/2025] | Version: 1.1*
