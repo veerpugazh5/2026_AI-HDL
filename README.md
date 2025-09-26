@@ -57,17 +57,22 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 | Date | Event |
 |------|--------|
-| **September 2025** | Registration Opens |
-| **December 2025** | Registration Closes |
+| **September 22 2025** | Registration Opens |
 | **October 7-9 2025** | League Kickoff Event (@ SEMICON West, Pheonix, AZ) |
-| **October  2025** | Friendlies (Webinar) #1 Released |
-| **November  2025** | Friendlies (Webinar) #2 Released |
-| **December  2025** | Friendlies (Webinar) #3 Released |
-| **January  2026** | Group Stage - Design Problem #1 Released |
-| **February  2026** | Playoffs - Design Problem #3 |
-| **March  2026** |Playoffs - Design Problem #2 |
-| **April  2026** | Finals – Virtual workshop for FPGA to ASIC Tapeout design |
-| **May 2026** | Final Submission and Design Sign-off|
+| **October 23  2025** | Friendlies (Webinar) #1 Released |
+| **November 20 2025** | Friendlies (Webinar) #2 Released |
+| **December 18 2025** | Friendlies (Webinar) #3 Released |
+| **December 19 2025** | Registration Closes |
+| **January 2 2026** | League Starts with Design Phase #1 AI generated Verilog Synthesis and verification |
+| **January 29 2026** | Milestone Review and Office Hours #1 |
+| **February 2 2026** | Design Phase #2 AI Driven PPA Optimization |
+| **February 26 2026** | Milestone Review and Office Hours #2 |
+| **March 2 2026** | Design Phase #3 Secure Implementation and Design Optimization |
+| **March 26 2026** | Milestone Review and Office Hours #3 |
+| **April 1 2026** | Finals – Design Phase #4 Final Design Tape-out Preparation |
+| **April 23 2026** | Milestone Review and Office Hours #4 |
+| **May 1 2026** |  League Ends with Final Submission and Design Sign-off |
+| **May 14 2026** |  Winner Announcement |
 | **July 25 - 29, 2026** | Awards Ceremony (@ 63rd DAC 2026 - Design Automation Conference, Long Beach, CA) |
 
 ---
@@ -80,10 +85,9 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 - Understand AI-assisted verification and optimization
 
 ### 🔧 **Hardware Design Fundamentals**
-- Verilog HDL programming
-- Digital logic design principles
+- Verilog HDL simulation and synthesis
 - FPGA implementation and testing
-- Hardware simulation and synthesis
+- Hardware Chip Tapeout: Full RTL-GDSII Flow
 
 ### 🛡️ **Hardware Security & Optimization**
 - Power and area optimization techniques
@@ -97,6 +101,16 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 ---
 
+## Understand the challenge
+
+- In this competition, your team will be given a specific hardware design problem to solve. The challenge is to develop an HDL solution with the help of AI. This means you’ll use AI tools (such as ChatGPT or other code-generating models) to write and improve your Verilog/VHDL code. You might prompt the AI to generate a module, debug errors, or suggest optimizations. Part of the challenge is learning how to ask the right questions and refine AI outputs to get correct, efficient hardware designs.
+
+- The project will be structured in phases with milestones. You will start with an initial design phase, then iteratively refine your hardware based on performance and security requirements. At each milestone, you’ll verify your design against the provided test benches to ensure correctness. Mentors will conduct design reviews, giving feedback and guidance. Expect to learn about hardware fundamentals, simulation tools, and best practices in chip design along the way. By the final phase, your team should have a fully working design meeting the challenge specifications.
+
+- **What to expect:** It’s a hands-on learning experience. You’ll attend workshops/webinars (see Workshop & Resources below) on topics like using AI in hardware design, how to run simulations, and more. You’ll also document your progress, keeping track of your AI prompts, design decisions, and test results. In the end, teams will present their designs, share their approach, and demonstrate how AI contributed. This challenge is not just about getting a working chip design, but also about exploring creative AI-driven solutions and learning from the process. Embrace the experimentation, and enjoy the ride!
+
+---  
+
 ## 🏗️ Competition Structure
 
 ### **Team Formation**
@@ -106,11 +120,11 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
   - Upper Division (Graduate)
 - **Registration**: Individual or pre-formed teams welcome
 
-### **Design Process**
-1. **AI-Generated Design**: Use LLMs to generate Verilog code
-2. **Verification**: Test with provided and custom test benches  
-3. **Tapeout**: Work with mentors to learn and deploy a full RTL-GDSII flow
-4. **Documentation**: Maintain detailed design logs and AI interaction records
+### **Design Phases (DP)**
+1. **DP1: Additional Module Synthesis**: Use LLMs to generate Verilog code and synthesize RTL Netlist + Baseline Synthesis Report, test with provided and custom test benches.
+2. **DP2: PPA Optimization**: Use LLMs to perform timing, power, and area optimization.
+3. **DP3: Security & Vulnerability Optimization**: Assess vulnerabilities (side-channels, debug misuse, hardware Trojans) and use LLM to implement countermeasures.
+4. **DP4: RTL to GDSII & Tapeout**: Teams complete floorplanning, place-and-route, sign-off (DRC/LVS/STA), and prepare tape-out deliverables.
 
 ### **Weekly Commitment**
 - **Mentor Meetings**: 1-2 hours/week
@@ -135,6 +149,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 - 👥 **Best Team Collaboration**
 
 ### **Prizes**
+- Chip Tapeout for Top 3 Winners.
 - Hardware prizes and FPGA development boards
 - Internship opportunities with sponsor companies
 - Recognition at major conferences
@@ -180,6 +195,15 @@ We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be not
 
 ---
 
+## 📚 Workshop Webinar links:
+
+### **Video Tutorials**
+- Webinar #1: Getting Started with AI-HDL – Competition Overview & Toolchain Setup [Webinar #1]()
+- Webinar #2: Unveiling the Challenge – RISC-V Design Scope and Extensions [Webinar #2]()
+- Webinar #2 : From RTL to Results – Early Implementation & Demo Walkthrough” [Webinar #3]()
+
+---
+
 ## 🛠️ Tools & Resources
 
 ### **AI Tools Provided**
@@ -188,16 +212,17 @@ We're expanding! [Sign up here](https://forms.gle/your-expansion-form) to be not
 - AI interaction logging tools
 
 ### **Hardware Design Tools**
-- **Simulation**: ModelSim, Icarus Verilog
-- **Synthesis**: Yosys, Vivado
-- **FPGA**: Xilinx and Intel FPGA toolchains
-- **Verification**: Formal verification tools
-
+- **DP1 Synthesis Simulation**:  Yosys, Verilator
+- **DP2 PPA Optiization**: Yosys, OpenROAD
+- **DP3 Security & Vulnerability Optimization**: : Yosys, Verilator (fuzz + test), Trust-Hub benchmarks.
+- **DP4 : RTL → GDSII flow**: OpenROAD + Magic + Netgen + KLayout
+  
 ### **Development Environment**
 We provide comprehensive setup guides for local tool installation:
 
-- **Simulation**: Icarus Verilog, GTKWave
+- **Simulation**: Verilator
 - **Synthesis**: Yosys (open-source)
+- **RTL → GDSII flow**: OpenROAD, Magic, Netgen, KLayout
 - **AI Integration**: Python with OpenAI/Anthropic APIs
 - **Platform Support**: Windows, macOS, Linux
 
@@ -287,13 +312,22 @@ AIHDL-2025-2026/
 │   ├── challenge-1/           # First challenge materials
 │   ├── challenge-2/           # Second challenge materials
 │   └── challenge-3/           # Third challenge materials
+│   └── challenge-4/           # Fourth challenge materials
 ├── docs/                      # Documentation and guides
 │   ├── getting-started/       # Beginner tutorials
 │   ├── ai-guides/            # AI tool usage guides
 │   └── resources/            # Additional learning materials
 ├── examples/                  # Sample designs and templates
-├── tools/                     # Utility scripts and tools
 └── submissions/              # Template for team submissions
+|   ├── DP-1/           # First Design phase submissions
+│   ├── DP-2/           # Second Design phase submissions
+│   └── DP-3/           # Third Design phase submissions
+│   └── DP-4/           # Fourth Design phase submissions
+├── tools/                     # Utility scripts and tools
+│   ├── OpenLANE_doc/       # Beginner tutorials
+│   ├── Openroad_doc/            # AI tool usage guides
+│   └── Verilator_doc/            # Additional learning materials
+│   └── Yosys_doc/            # Additional learning materials
 ```
 
 ---
@@ -310,11 +344,28 @@ AIHDL-2025-2026/
 - 🎓 **University of Arizona**: [Center for Semiconductor Manufacturing](https://csm.arizona.edu/)
 - 💬 **Discord**: [Join our community](https://discord.com/invite/dFXMvX6cNG)
 
+### **Frequently asked Questions**
+- AI-HDL - [FAQ](https://csm.arizona.edu/AIHDL#faq)
+
+---
+
+## Open Source Requirements
+- This challenge is founded on open-source principles. All work produced as part of AI-HDL should be made openly available so that others can learn from and build upon it. Each team’s project repository (including code, documentation, and any data) must be shared under an open-source license.
+
+### Key expectations:
+- **Open Code Repository:** Teams will use a source control platform (e.g., GitHub) to host their project. While the competition is running, you may use a private repository (with access given to judges and mentors). However, by the end of the competition, the repository should be made public (unless the organizers specify a different timeline) to showcase the work and allow knowledge sharing.
+
+- **Attribution and Originality:** If your team uses any third-party open-source components or code snippets, that’s fine just make sure to credit them and comply with their licenses. Your own work should be original. Plagiarism or using proprietary code is against the spirit of the challenge. By sticking to open-source resources and licensing your own project properly, you contribute to a culture of transparency and innovation.
+
+- Following open-source practices isn’t just a rule; it’s part of the learning experience. You’ll get familiar with tools like Git, learn how to document a project for public consumption, and understand licensing – all valuable professional skills. We believe sharing your work openly benefits the whole community and accelerates progress in AI-driven hardware design.
+
 ---
 
 ## 📄 License & Usage
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+            b
 
 **What this means:**
 - ✅ You can share and adapt the materials
