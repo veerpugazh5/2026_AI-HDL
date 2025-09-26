@@ -30,7 +30,6 @@ This phase focuses on the foundational design implementation where teams create 
 - Was a “hello world” simulation run on the base design using provided testbenches?  
 - Do they need help with tool installation or LLM prompting for HDL code?
   
----
 
 ## Week 2: Module Development & Unit Testing
 **Objectives**
@@ -50,7 +49,6 @@ This phase focuses on the foundational design implementation where teams create 
 - How is integration into the core going (any mismatches or challenges)?  
 - Did LLM-generated code require manual fixes?  
 
----
 
 ## Week 3: Integration & Full-Core Simulation
 **Objectives**
@@ -71,7 +69,6 @@ This phase focuses on the foundational design implementation where teams create 
 - Was a trial synthesis performed (any issues like unmapped logic)?  
 - How is documentation and code quality being maintained?  
 
----
 
 ## Week 4: Final Verification & Milestone Prep
 **Objectives**
