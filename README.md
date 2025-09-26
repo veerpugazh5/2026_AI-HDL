@@ -268,41 +268,39 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 
 ### **AI-HDL Sponsors**
 
-
 <div align="center">
-<table style="border: none; margin: 0 auto; width:190%">
+<table width="100%" cellpadding="0" cellspacing="0" style="border: none; margin: 0 auto; border-collapse: collapse; width: 100%; max-width: 800px;">
 <tr>
-<td colspan="2" align="center" style="padding: 20px;">
+<td colspan="2" align="center" style="padding: 30px; width: 100%;">
 <img src="./assets/sponsors/university-of-arizona-logo.png" alt="University of Arizona" height="80"/>
 </td>
 </tr>
 <tr>
-<td align="center" style="padding: 20px;">
+<td align="center" style="padding: 30px; width: 50%;">
 <img src="./assets/sponsors/arm-logo.png" alt="ARM" height="60"/>
 </td>
-<td align="center" style="padding: 20px;">
+<td align="center" style="padding: 30px; width: 50%;">
 <img src="./assets/sponsors/chipfoundry-logo.png" alt="Chip Foundry" height="120"/>
 </td>
 </tr>
 <tr>
-<td align="center" style="padding: 20px;">
+<td align="center" style="padding: 30px; width: 50%;">
 <img src="./assets/sponsors/nvidia-logo.png" alt="NVIDIA" height="120"/>
 </td>
-<td align="center" style="padding: 20px;">
+<td align="center" style="padding: 30px; width: 50%;">
 <img src="./assets/sponsors/chipmango-logo.png" alt="Chip Mango" height="60"/>
 </td>
 </tr>
 <tr>
-<td align="center" style="padding: 20px;">
+<td align="center" style="padding: 30px; width: 50%;">
 <img src="./assets/sponsors/cadence-logo.png" alt="Cadence" height="40"/>
 </td>
-<td align="center" style="padding: 20px;">
+<td align="center" style="padding: 30px; width: 50%;">
 <img src="./assets/sponsors/synopsys-logo.png" alt="Synopsys" height="40"/>
 </td>
 </tr>
 </table>
 </div>
-
 
 </div>
 
