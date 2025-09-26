@@ -272,31 +272,31 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 <table border="0" cellspacing="10" cellpadding="0" style="border: none; border-collapse: separate; border-spacing: 10px;">
     <tbody>
         <tr>
-            <td colspan="2" align="center" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
+            <td colspan="2" align="center" bgcolor="#FFFFFF" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
                 <img src="./assets/sponsors/university-of-arizona-logo.png" alt="University of Arizona" height="80">
             </td>
         </tr>
         <tr>
-            <td align="center" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
+            <td align="center" bgcolor="#FFFFFF" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
                 <img src="./assets/sponsors/arm-logo.png" alt="ARM" height="60">
             </td>
-            <td align="center" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
+            <td align="center" bgcolor="#FFFFFF" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
                 <img src="./assets/sponsors/chipfoundry-logo.png" alt="Chip Foundry" height="120">
             </td>
         </tr>
         <tr>
-            <td align="center" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
+            <td align="center" bgcolor="#FFFFFF" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
                 <img src="./assets/sponsors/nvidia-logo.png" alt="NVIDIA" height="120">
             </td>
-            <td align="center" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
+            <td align="center" bgcolor="#FFFFFF" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
                 <img src="./assets/sponsors/chipmango-logo.png" alt="Chip Mango" height="60">
             </td>
         </tr>
         <tr>
-            <td align="center" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
+            <td align="center" bgcolor="#FFFFFF" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
                 <img src="./assets/sponsors/cadence-logo.png" alt="Cadence" height="40">
             </td>
-            <td align="center" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
+            <td align="center" bgcolor="#FFFFFF" style="background-color: #ffffff; border-radius: 8px; padding: 20px; border: none;">
                 <img src="./assets/sponsors/synopsys-logo.png" alt="Synopsys" height="40">
             </td>
         </tr>
