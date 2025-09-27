@@ -134,9 +134,10 @@ This phase  is the final stage where teams take the verified RTL and go through 
 
 
 ## Resources
-- [Tape-out Guidelines](../../docs/getting-started/)
-- [Final Verification Procedures](../../docs/ai-guides/)
-- [Documentation Standards](../../submissions/)
+**Links to be added soon**
+- [Tape-out Guidelines]
+- [Final Verification Procedures]
+- [Documentation Standards]
 
 ## Support
 - Weekly mentor meetings
