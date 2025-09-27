@@ -113,9 +113,10 @@ This phase  emphasizes enhancing the design’s security features and eliminatin
 
 
 ## Resources
-- [Hardware Security Guidelines](../../docs/getting-started/)
-- [PPA Optimization Techniques](../../docs/ai-guides/)
-- [Security Analysis Tools](../../docs/getting-started/)
+**Links to be added soon**
+- [Hardware Security Guidelines]
+- [PPA Optimization Techniques]
+- [Security Analysis Tools]
 
 ## Support
 - Weekly mentor meetings
