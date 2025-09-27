@@ -107,10 +107,11 @@ This phase is dedicated to optimizing the core’s **Power, Performance, and Are
 
 
 ## Resources
-- [Advanced Verilog Techniques](../../docs/getting-started/)
-- [Feature Implementation Guides](../../docs/ai-guides/)
-- [Testing and Verification](../../docs/getting-started/)
-
+**Links to be added soon**
+- [Advanced Verilog Techniques]
+- [Feature Implementation Guides]
+- [Testing and Verification]
+  
 ## Support
 - Weekly mentor meetings
 - Office hours on February 26, 2026
