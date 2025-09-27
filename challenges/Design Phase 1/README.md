@@ -106,9 +106,10 @@ This phase focuses on the foundational design implementation where teams create 
 
 
 ## Resources
-- [AI Prompting Guidelines](../../docs/ai-guides/)
-- [Verilog Best Practices](../../docs/getting-started/)
-- [Simulation Tools Setup](../../docs/getting-started/local-setup.md)
+**Links to be added soon**
+- [AI Prompting Guidelines]
+- [Verilog Best Practices]
+- [Simulation Tools Setup]
 
 ## Support
 - Weekly mentor meetings
