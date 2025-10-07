@@ -1,4 +1,4 @@
-# AI Hardware Design League (AI-HDL) 2025-2026
+# AI Hardware Design League (AI-HDL) 2026
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🚀 Welcome to AI-HDL 2025-2026!
+## 🚀 Welcome to AI-HDL 2026!
 
 The **AI Hardware Design League (AI-HDL)** is an innovative educational competition that combines the power of **Artificial Intelligence** with **Hardware Design**. Students from around the world collaborate in teams to design cutting-edge hardware using Large Language Models (LLMs) and modern EDA tools.
 
@@ -29,7 +29,7 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 ---
 
-## 🏆 Previous Winners (2024-2025)
+## 🏆 Previous Winners (2025)
 
 ### **🥇 Best Design Overall**
 
@@ -61,17 +61,16 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 | **November 20 2025**   | Friendlies (Webinar) #2 Released                                                   |
 | **December 18 2025**   | Friendlies (Webinar) #3 Released                                                   |
 | **December 19 2025**   | Registration Closes                                                                |
-| **January 2 2026**     | League Starts with Design Phase #1 AI generated Verilog Synthesis and verification |
+| **January 15 2026**     | League Starts with Design Phase #1 AI generated Verilog Synthesis and verification |
 | **January 29 2026**    | Milestone Review and Office Hours #1                                               |
-| **February 2 2026**    | Design Phase #2 AI Driven PPA Optimization                                         |
+| **February 12 2026**    | Design Phase #2 AI Driven PPA Optimization                                         |
 | **February 26 2026**   | Milestone Review and Office Hours #2                                               |
-| **March 2 2026**       | Design Phase #3 Secure Implementation and Design Optimization                      |
+| **March 12 2026**       | Design Phase #3 Secure Implementation and Design Optimization                      |
 | **March 26 2026**      | Milestone Review and Office Hours #3                                               |
 | **April 1 2026**       | Finals – Design Phase #4 Final Design Tape-out Preparation                        |
 | **April 23 2026**      | Milestone Review and Office Hours #4                                               |
 | **May 1 2026**         | League Ends with Final Submission and Design Sign-off                              |
 | **May 14 2026**        | Winner Announcement                                                                |
-| **July 25 - 29, 2026** | Awards Ceremony (@ 63rd DAC 2026 - Design Automation Conference, Long Beach, CA)   |
 
 ---
 
