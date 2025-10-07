@@ -24,13 +24,8 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 ### 🎬 Watch Our Introduction Video
 
-<div align="center">
-
-[![AI-HDL Introduction Video](https://img.youtube.com/vi/G1RHn9tjTpY/maxresdefault.jpg)](https://www.youtube.com/watch?v=G1RHn9tjTpY&t=1s)
-
-**Click the thumbnail above to watch the AI-HDL introduction video**
-
-</div>
+[[AI-HDL Introduction Video part 1]](https://www.youtube.com/watch?v=TVYUB6AjqxA)
+[[AI-HDL Introduction Video part 2]](https://www.youtube.com/watch?v=HUBlg8Xvp3Q)
 
 ---
 
