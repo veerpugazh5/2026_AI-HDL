@@ -266,7 +266,7 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 <div style="background-color: var(--color-canvas-default, #ffffff); padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid var(--color-border-default, #d0d7de);">
 
 <div align="center">
-    <img src="./assets/sponsors/sponsor.png" alt="AI-HDL Sponsors" style="max-width: 800px; width: 100%;">
+    <img src="./assets/sponsors/sponsors1.png" alt="AI-HDL Sponsors" style="max-width: 800px; width: 100%;">
 </div>
 
 </div>
