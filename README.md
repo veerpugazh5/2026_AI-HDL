@@ -53,24 +53,24 @@ The **AI Hardware Design League (AI-HDL)** is an innovative educational competit
 
 ## 📅 Timeline 2025-2026
 
-| Date                         | Event                                                                              |
-| ---------------------------- | ---------------------------------------------------------------------------------- |
-| **September 22 2025**  | Registration Opens                                                                 |
-| **October 7-9 2025**   | League Kickoff Event (@ SEMICON West, Pheonix, AZ)                                 |
-| **October 23  2025**   | Friendlies (Webinar) #1 Released                                                   |
-| **November 20 2025**   | Friendlies (Webinar) #2 Released                                                   |
-| **December 18 2025**   | Friendlies (Webinar) #3 Released                                                   |
-| **December 19 2025**   | Registration Closes                                                                |
-| **January 15 2026**     | League Starts with Design Phase #1 AI generated Verilog Synthesis and verification |
-| **January 29 2026**    | Milestone Review and Office Hours #1                                               |
-| **February 12 2026**    | Design Phase #2 AI Driven PPA Optimization                                         |
-| **February 26 2026**   | Milestone Review and Office Hours #2                                               |
-| **March 12 2026**       | Design Phase #3 Secure Implementation and Design Optimization                      |
-| **March 26 2026**      | Milestone Review and Office Hours #3                                               |
-| **April 1 2026**       | Finals – Design Phase #4 Final Design Tape-out Preparation                        |
-| **April 23 2026**      | Milestone Review and Office Hours #4                                               |
-| **May 1 2026**         | League Ends with Final Submission and Design Sign-off                              |
-| **May 14 2026**        | Winner Announcement                                                                |
+| Date                        | Event                                                                              |
+| --------------------------- | ---------------------------------------------------------------------------------- |
+| **September 22 2025** | Registration Opens                                                                 |
+| **October 7-9 2025**  | League Kickoff Event (@ SEMICON West, Pheonix, AZ)                                 |
+| **October 23  2025**  | Friendlies (Webinar) #1 Released                                                   |
+| **November 20 2025**  | Friendlies (Webinar) #2 Released                                                   |
+| **December 18 2025**  | Friendlies (Webinar) #3 Released                                                   |
+| **December 19 2025**  | Registration Closes                                                                |
+| **January 15 2026**   | League Starts with Design Phase #1 AI generated Verilog Synthesis and verification |
+| **January 29 2026**   | Milestone Review and Office Hours #1                                               |
+| **February 12 2026**  | Design Phase #2 AI Driven PPA Optimization                                         |
+| **February 26 2026**  | Milestone Review and Office Hours #2                                               |
+| **March 12 2026**     | Design Phase #3 Secure Implementation and Design Optimization                      |
+| **March 26 2026**     | Milestone Review and Office Hours #3                                               |
+| **April 1 2026**      | Finals – Design Phase #4 Final Design Tape-out Preparation                        |
+| **April 23 2026**     | Milestone Review and Office Hours #4                                               |
+| **May 1 2026**        | League Ends with Final Submission and Design Sign-off                              |
+| **May 14 2026**       | Winner Announcement                                                                |
 
 ---
 
@@ -261,7 +261,7 @@ See our [Getting Started Guide](./docs/getting-started/README.md) for detailed i
 <div style="background-color: var(--color-canvas-default, #ffffff); padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid var(--color-border-default, #d0d7de);">
 
 <div align="center">
-    <img src="./assets/sponsors/sponsor.png" alt="AI-HDL Sponsors" style="max-width: 800px; width: 100%;">
+    <img src="./assets/sponsors/sponsor.jpg" alt="AI-HDL Sponsors" style="max-width: 800px; width: 100%;">
 </div>
 
 </div>
